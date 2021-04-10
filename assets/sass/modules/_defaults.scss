@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1.4rem;
+	background: $main-color-bg;
+	color: $white;
+	font-family: $main-font;
+    margin: 0 auto;
+
+    h1, h2, h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        padding-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+
+   
+}
+
+main {
+	width: 1024px;
+	display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+header {
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.menu {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    padding: 2.5rem 4rem;
+    line-height: 180%;
+
+    .videos {
+        padding: 15px;
+        margin: 5px;
+
+        p, h1, h2, h3 {
+           margin: 18px; 
+        }
+
+        a {
+            text-decoration: underline;
+            color: white;
+            width: 400px;
+            margin-top: 35px;
+            background-color: red;
+            padding: 10px;
+        }
+    } 
+    
+    
+    .audio {
+        padding: 15px;
+        margin: 5px;
+
+        p, h1, h2, h3 {
+            margin: 18px; 
+         }
+ 
+        a {
+            text-decoration: underline;
+            color: white;
+            width: 400px;
+            margin-top: 35px;
+            background-color: red;
+            padding: 10px;
+        }
+    }
+}
+
+.player-con {
+    background-color: red;
+	padding: 2.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .caps {
+        padding: 2.5rem 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.audio-player-con {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+    .audio-player {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .audioControls {
+            height: 4rem;
+            margin: 20px;
+    
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .lyrics {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        
+        padding: 2rem;
+        width: 624px;
+
+        button {
+           margin-bottom: 20px;
+            height: 50px;
+            font-size: 1.3rem;
+            font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 120%;
+            padding: 10px;
+         }
+    }
+}
+
+
+
