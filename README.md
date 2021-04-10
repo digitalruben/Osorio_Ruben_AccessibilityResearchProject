@@ -6,8 +6,8 @@ Mini website built with HTML, CSS, Javascript, and sass. This proof of concept i
 
 # Roadmap Here: [Road map](https://docs.google.com/document/d/1inOK-MjAENgBeuTjPh7oDWO6MC1pCv-U8USWE3dPf_4/edit?usp=sharing)
 
-# Implementation
-Accessibility project
+# Purpose
+Proof of concept for accessibility test.
 
 ## Functionalities:
 - Screen reader ready 
@@ -22,7 +22,6 @@ Accessibility project
 
 ## Development: 
 Webpage developed usind HTML, CSS -SASS- and JavaScript with Vue Framework.
-
 
 ## Author
 * **Ruben Osorio** - *Designer* - [Digital Ruben](https://github.com/digitalruben)
